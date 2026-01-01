@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+
+  <body>
+    <div class="side">
+      <div class="Title">
+        <img
+          src="https://raw.githubusercontent.com/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png"
+          alt=""
+        />ODIN
+      </div>
+    </div>
+
+    <div class="form-inputs">
+      <div class="form-title one">
+        This is not a real online service! You know you need something like this
+        in your life to help you realize your deepest dreams.
+      </div>
+
+      <div class="form-title">Sign up now to get started.</div>
+
+      <div class="form-title two">
+        <em>You know you want to.</em>
+      </div>
+
+      <div class="inputs">
+        <div class="form-title three">Lit's do this!</div>
+
+        <form action="" method="get">
+          <div class="coloms">
+            <div class="colom right">
+              <div class="group">
+                  <label for="firstName">First Name</label>
+                  <input
+                    type="text"
+                    value="joe"
+                    name="FirstName"
+                    id="firstName"
+                  />
+              </div>
+
+              <div class="group">
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    placeholder="joe@email.com"
+                    id="email"
+                    name="Email"
+                  />
+              </div>
+
+              <div class="group">
+                  <label for="pass">Password</label>
+                  <input type="password" name="password" id="pass" />
+              </div>
+
+            </div>
+            <div class="colom left">
+              <div class="group">
+                  <label for="LastName">Last Name</label>
+                  <input
+                    type="text"
+                    name="LastName"
+                    id="LastName"
+                  />
+              </div>
+
+              <div class="group">
+                  <label for="phoneNumber">Phone Number</label>
+                  <input
+                    type="number"
+                    id="phoneNumber"
+                    name="phone"
+                  />
+              </div>
+
+              <div class="group">
+                  <label for="pass">Confirm Password</label>
+                  <input type="password" name="confirm" id="pass" />
+              </div>
+            </div>
+          </div>
+          <!-- <input type="submit" value="Creat Account"> -->
+           <button type="submit">Creat Account</button>
+        </form>
+        <div class="footer">
+            Already have an account? <a href="#">Log in</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
