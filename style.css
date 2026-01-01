@@ -15,7 +15,7 @@ body{
 .side{
     width: 35vw;
     height: 100vh;
-    background-image:url("/halie-west-25xggax4bSA-unsplash.jpg") ;
+    background-image:url("halie-west-25xggax4bSA-unsplash.jpg") ;
     background-size: cover;
 }
 .Title{
